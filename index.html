@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+    <link rel="Stylesheet" type="text/css" href="./cSS/stylos.css" media="screen">
+    
+</head>
+<body>
+
+    <div class="contenedor-busqueda">
+        <div class="titulo">
+            CONSULTA DE DATOS DE TEMPERATURA
+            DEL AIRE EN COLOMBIA
+        </div>
+        <div class="espacio"></div>
+        <div class="dpto">Departamento</div>
+        <div class="espaciesito"></div>
+        <div class="contenedor-input">
+            <input class="entrada" type="text" id="departamentoInput" placeholder="Nombre del departamento">
+            <button class="boton" onclick="buscar()">Buscar</button>
+            <div class="espaciesito"></div>
+            <table id="tablaDatos">
+                <thead>
+                    <tr>
+                        <th>FECHA</th>
+                        <th>VALOR</th>
+                        <th>ESTACION</th>
+                        <th>DEPARTAMENTO</th>
+                        <th>MUNICIOPIO</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaDatosBody"></tbody>
+            </table>
+        </div>
+        <div class="tabla-resultado"></div>
+        
+
+    </div>
+
+
+
+
+    
+    <script src="./Js/fetch.js"></script>
+</body>
+</html>

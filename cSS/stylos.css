@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-busqueda{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 35%;
+    height: auto;
+
+}
+
+.espacio{
+    height: 40px;
+}
+
+.titulo{
+    width: 50%;
+    text-align: center;
+    margin-left: 130px;
+
+}
+
+.boton{
+    padding: 15px;
+    background-color: yellow;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.entrada{
+    height: 48px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+#tablaDatos{
+    border-collapse: collapse;
+    width: auto;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.dpto{
+    font-size: 1,333rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.espaciesito{
+    height: 10px;
+}
